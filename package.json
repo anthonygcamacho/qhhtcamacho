@@ -1,0 +1,40 @@
+{
+  "name": "qhhtcamacho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parcel": "parcel ./assets/placeholder.html",
+    "dev": "nodemon ./index.js",
+    "test": "mocha",
+    "watch": "gulp sass:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonygcamacho/qhhtcamacho.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonygcamacho/qhhtcamacho/issues"
+  },
+  "homepage": "https://github.com/anthonygcamacho/qhhtcamacho#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "express-force-https": "^1.0.0",
+    "hbs": "^4.2.0",
+    "sitemap": "^7.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "mocha": "^9.2.1",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15",
+    "sass": "^1.49.8"
+  }
+}

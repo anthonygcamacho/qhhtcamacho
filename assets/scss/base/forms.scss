@@ -1,0 +1,203 @@
+form {
+
+}
+
+input {
+
+}
+
+textarea {
+
+}
+
+select {
+
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.gform_wrapper {
+  label {
+    display: none;
+  }
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px 14px;
+    margin-bottom: 20px;
+    border: 1px solid #B2B2B2;
+    font-family: 'OpenSans-Regular', sans-serif;
+  }
+  select {
+    padding: 9px 11px;
+    &.placeholder {
+      color: #B2B2B2;
+    }
+    option {
+      &.gf_placeholder {
+        color: #B2B2B2;
+      }
+      color: #000;
+    }
+  }
+  .gf_select_temp_grey {
+    select {
+      color: #B2B2B2;
+    }
+  }
+  .requirednote,
+  .validation_error,
+  .validation_message,
+  .gform_validation_container,
+  .qualifications {
+    display: none;
+  }
+  // .gfield {
+  //   margin-bottom: 20px;
+  // }
+  .gf_left_half,
+  .gf_right_half {
+    @media (min-width: 550px){
+      display: inline-block;
+      width: 50%;
+    }
+  }
+  .gf_left_half {
+    @media (min-width: 550px){
+      padding-right: 9px;
+    }
+  }
+  .gf_right_half {
+    @media (min-width: 550px){
+      padding-left: 9px;
+    }
+  }
+  .ginput_complex {
+    span {
+      @media (min-width: 550px){
+        width: 50%;
+        float: left;
+        display: inline-block;
+      }
+    }
+  }
+  .gf_page_category {
+    display: none;
+  }
+  input[type="submit"] {
+    display: none;
+    width: 100%;
+    padding: 11px;
+    // background-color: @orange;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    &:hover {
+      background-color: #D35B0E;
+    }
+  }
+
+  // form errors
+  .gfield_error input,
+  .gfield_error select,
+  .gfield_error textarea {
+    background-color: #FFF3F3 !important;
+    border: 1px solid #FF9696;
+    color: #FF0000;
+  }
+  .gfield_error .gfield_radio {
+    padding: 10px;
+    background-color: #FFF3F3 !important;
+    border: 1px solid #FF9696;
+    color: #FF0000;
+  }
+
+  // form submit / spinner
+  .gform_footer {
+    position: relative;
+  }
+  &--form {
+    &--sumbit-value-loader {
+      &--wrapper {
+        // position: absolute;
+        // top: 12px;
+        // left: 0;
+        // width: 100%;
+        //pointer-events: none;
+        text-align: center;
+        text-transform: uppercase;
+        a {
+          width: 100%;
+          padding: 11px;
+          // background-color: @orange;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+          font-size: 18px;
+          text-transform: uppercase;
+          display: block;
+          .border-radius(10px);
+          &:hover {
+            background-color: #D35B0E;
+          }
+        }
+      }
+      display: inline-block;
+      margin-bottom: -12px !important;
+      span {
+        margin-right: 7px;
+        color: #fff !important;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 22px;
+        position: relative;
+        .fa {
+          display: none;
+          font-size: 18px;
+          position: absolute;
+          top: 4px;
+          right: -28px;
+        }
+      }
+    }
+  }
+  input.gform_button.disabled {
+    cursor: default;
+  }
+
+}
+
+.disclaimer {
+  &.form-disclaimer {
+    max-width: 250px;
+    margin: 15px auto 0 auto;
+    position: relative;
+    padding-left: 25px;
+    color: #97ABBF;
+    font-size: 10px;
+  }
+  &-private-lock {
+    width: 18px;
+    height: 18px;
+    background-image: url('imgs/site/social-locks-arrow.png');
+    position: absolute;
+    top: 1px;
+    left: 0;
+    display: block;
+  }
+  .private-lock-blue {
+    background-position: -42px 74px;
+  }
+  .private-lock-grey {
+    background-position: 22px 56px;
+  }
+}
+
+.sp-checkbox {
+  display: none;
+}

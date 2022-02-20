@@ -1,0 +1,79 @@
+html {
+}
+
+body {
+  position: relative;
+  background-color: $browser-background-color;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1em;
+}
+
+// body {
+//   background-color: red;
+// }
+
+// .clear {
+//   clear: both;
+// }
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+b {
+  font-weight: 600;
+}
+
+// .hidden {
+//   display: none;
+// }
+
+// .site-wrapper {
+//   padding-top: 48px;
+//   text-align: center;
+//   @media (min-width: 1000px){
+//     padding-top: 60px;
+//   }
+// }
+
+// .site-content {
+//   width: 100%;
+//   margin: 0 auto;
+//   padding: 0;
+//   background-color: #fff;
+//   @media (min-width: 1225px){
+//     width: 1200px;
+//     border-left: 1px solid @site-content-border;
+//     border-right: 1px solid @site-content-border;
+//   }
+//   @media (min-width: @full-width-media){
+//     width: @full-width;
+//   }
+// }
+
+// section,
+// .header,
+// .footer {
+//   text-align: center;
+// }
+
+// .container {
+//   margin: 0 auto;
+//   @media (min-width: 1225px){
+//     width: 1200px;
+//   }
+// }
+
+// .slick-prev,
+// .slick-next {
+//   height: 70px;
+//   width: 30px;
+// }
