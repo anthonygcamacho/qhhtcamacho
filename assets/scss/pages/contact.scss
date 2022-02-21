@@ -1,0 +1,15 @@
+.contact {
+  &-form {
+    height: 80vh;
+    padding: 90px 20px !important;
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    &__description {
+      max-width: 500px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+  }
+}

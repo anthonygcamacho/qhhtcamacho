@@ -19,6 +19,7 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    border-bottom: 5px solid #eaeaea;
     @media (min-width: 720px) {
       height: $header-height-lg;
       padding: 0 20px;

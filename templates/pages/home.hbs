@@ -16,12 +16,16 @@
     <h2 class="h2__default">Pricing</h2>
     <p class="pricing-home__cost">FREE</p>
     <p class="pricing-home__description">I’m currently working towards a QHHT Practioner Level 1. In order to reach that goal, I have to do 25 free sessions. Pricing may change afterwords, so please take advantage.</p>
-    <a class="cta__default pricing-home__schedule-now" href="">Schedule Now</a>
+    <!-- Calendly link widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <a class="cta__default pricing-home__schedule-now" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/anthony-g-camacho/qhht-session'});return false;">Schedule Session Now</a>
+    <!-- Calendly link widget end -->
     <p class="pricing-home__weekends-only">Weekends Only</p>
 </section>
 
 <section class="qhht-home" id="qhht-home">
-    <h3>QHHT</h3>
+    <h2 class="h2__default">QHHT</h2>
     <div class="qhht-home__wrapper">
         <div class="qhht-home__description">
             <p>Quantum Healing Hypnosis Technique is a deep trance hypnosis where physical and spiritual healing can take place.</p>
@@ -35,7 +39,7 @@
             </ul>
         </div>
         <div class="qhht-home__description-img">
-            <img src="imgs/qhht3.svg" />
+            <img class="img-responsive" src="imgs/qhht3.svg" />
         </div>
     </div>
 </section>

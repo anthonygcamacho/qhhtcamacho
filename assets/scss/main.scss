@@ -44,11 +44,12 @@
 // // Layout
 @import 'layout/header';
 @import 'layout/banner';
-// @import 'layout/footer';
+@import 'layout/footer';
 @import 'layout/content';
 
 // // Pages
 @import 'pages/home';
+@import 'pages/contact';
 
 // // Module
 @import 'module/buttons';

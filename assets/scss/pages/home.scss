@@ -1,6 +1,6 @@
 .home {
   .about-home {
-    padding-bottom: 90px;
+    padding: 90px 20px;
     text-align: center;
     &__wrapper {
       max-width: 750px;
@@ -40,6 +40,28 @@
     }
     &__weekends-only {
       font-size: 14px;
+    }
+  }
+
+  .qhht-home {
+    padding: 60px 20px 50px 20px;
+    text-align: center;
+    h2 {
+      margin-bottom: 25px;
+    }
+    &__wrapper {
+      max-width: 700px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__description {
+      max-width: 380px;
+      text-align: left;
+    }
+    &__description-img {
+      max-width: 270px;
     }
   }
 }

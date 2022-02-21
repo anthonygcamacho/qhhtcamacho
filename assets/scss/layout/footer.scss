@@ -1,5 +1,4 @@
 .footer {
-
   // margin-top: 50px;
   padding: 20px 15px;
   background-color: #1c1c1c;
@@ -12,15 +11,14 @@
   }
 
   .footer {
-    
     &__row {
       margin: 20px 0;
       text-align: center;
       a {
         margin: 0 5px;
-        font-size: .8em;
+        font-size: 0.8em;
         text-decoration: none;
-        @media(min-width: 840px) {
+        @media (min-width: 840px) {
           margin: 0 12px;
           font-size: 1em;
           flex-direction: row;
@@ -33,7 +31,7 @@
         line-height: 1.5em;
         br {
           display: inline;
-          @media(min-width: 500px) {
+          @media (min-width: 500px) {
             display: none;
           }
         }
@@ -50,168 +48,10 @@
       }
 
       &__nav {
-
       }
 
       &__hashtag {
-
       }
-
     }
-
-      
-
   }
-
-  // color: @light-grey;
-  // text-align: center;
-  // font-family: 'OpenSans-Regular', sans-serif;
-  // font-size: 12px;
-
-  // .container {
-  //   width: 100%;
-  //   margin: 0 auto;
-  //   padding: 30px 0 33px 0;
-  //   background-color: #8A888A;
-  //   position: relative;
-  //   @media (min-width: 880px){
-  //   }
-  //   @media (min-width: 1225px){
-  //     width: 1200px;
-  //     margin: 0 auto;
-  //     padding: 30px 0 33px 0;
-  //     border-left: 1px solid @site-content-border;
-  //     border-right: 1px solid @site-content-border;
-  //   }
-  //   @media (min-width: @full-width-media){
-  //     width: @full-width;
-  //     margin: 0 auto;
-  //   }
-  // }
-
-  // &-nav {
-  //   margin-bottom: 5px;
-  //   display: block;
-  //   @media (min-width: 760px){
-  //     margin-bottom: 0;
-  //     display: inline-block;
-  //   }
-  //   li {
-  //     display: inline-block;
-  //     a {
-  //       color: @light-grey;
-  //       text-decoration: none;
-  //       &:hover {
-  //         color: @light-grey;
-  //         text-decoration: underline;
-  //       }
-  //     }
-  //   }
-  //   &-barrier {
-  //     margin: 0 10px;
-  //     width: 1px;
-  //     height: 9px;
-  //     background-color: @light-grey;
-  //     &.last {
-  //       display: none;
-  //       @media (min-width: 760px){
-  //         display: inline-block;
-  //       }
-  //     }
-  //   }
-  //   a {
-  //     color: @light-grey;
-  //     &:hover {
-  //       color: @blue;
-  //     }
-  //   }
-  //   &.first {}
-  //   &.last {
-  //     border-right: none;
-  //   }
-  // }
-
-  // &-social-links {
-  //   margin: 0 4px 19px -3px;
-  //   font-size: 18px;
-  //   display: block;
-  //   @media (min-width: 760px){
-  //     margin-bottom: 0;
-  //     display: inline-block;
-  //   }
-  //   li {
-  //     display: inline-block;
-  //     width: 18px;
-  //     height: 18px;
-  //     margin: 0 3px;
-  //     position: relative;
-  //     &.twitter {
-  //       width: 16px;
-  //     }
-  //     &.facebook {
-  //       width: 10px;
-  //     }
-  //   }
-  //   .fa {
-  //     color: @light-grey;
-  //   }
-  //   a {
-  //     display: block;
-  //     position: absolute;
-  //     top: 5px;
-  //     left: 0;
-  //     &:hover {
-  //       .fa {
-  //         color: @blue;
-  //       }
-  //     }
-  //   }
-  //   &-first {
-  //     margin: 0;
-  //   }
-  //   &-last {
-  //     margin: 0;
-  //   }
-  // }
-
-  // &-copy-right {
-  //   display: inline-block;
-  // }
-
-  // #DMCA-badge {
-  //   margin-top: 20px;
-  //   display: block;
-  //   // .dm-1 {
-  //   //   padding: 0 !important;
-  //   //   background-color: #8a888a;
-  //   //   border-color: #8a888a;
-  //   //   font-family: 'OpenSans-Regular',sans-serif;
-  //   //   font-weight: normal !important;
-  //   // }
-  //   // .dm-2 {
-  //   //   padding: 0 8px 0px 0 !important;
-  //   //   left: 35px !important;
-  //   //   background-color: #8a888a;
-  //   //   border-color: #8a888a;
-  //   //   font-family: 'OpenSans-Regular',sans-serif;
-  //   //   font-weight: normal !important;
-  //   // }
-  //   // a:hover {
-  //   //   text-decoration: underline !important;
-  //   // }
-  // }
-
-  // .back-to-top {
-  //   width: 42px;
-  //   height: 42px;
-  //   background-image: url('imgs/site/social-locks-arrow.png');
-  //   background-position: 0 -64px;
-  //   position: absolute;
-  //   top: -21px;
-  //   right: 15px;
-  //   @media (min-width: @full-width-media){
-  //     right: 160px;
-  //   }
-  // }
-
 }
