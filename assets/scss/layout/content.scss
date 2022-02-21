@@ -1,27 +1,27 @@
 .content {
+  margin-top: 90px;
 
-    section {
-        padding: 0 15px;
-    }
+  section {
+    padding: 0 15px;
+  }
 
-    .section-inner-wrapper {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 15px 0px;
-    }
+  .section-inner-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0px;
+  }
 
-    .section-header {
-        padding: 50px 0;
-        text-align: center !important;
-    }
+  .section-header {
+    padding: 50px 0;
+    text-align: center !important;
+  }
 
-    .quote-wrapper {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 70px;
-        font-size: .9em;
-        background-color: #f1f1f1;
-        border-radius: 15px;
-    }
-
+  .quote-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 70px;
+    font-size: 0.9em;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+  }
 }

@@ -35,7 +35,7 @@
 // // Base
 @import 'base/fonts';
 @import 'base/base';
-// @import "base/typography";
+@import 'base/typography';
 // @import "base/links";
 // @import "base/table";
 // @import "base/forms";
@@ -45,13 +45,13 @@
 @import 'layout/header';
 @import 'layout/banner';
 // @import 'layout/footer';
-// @import "layout/content";
+@import 'layout/content';
 
 // // Pages
-// @import 'pages/home';
+@import 'pages/home';
 
 // // Module
-// @import 'module/buttons';
+@import 'module/buttons';
 // @import "module/protest-banner.scss";
 // @import "module/protest-instructions";
 // @import "module/protest-locations";

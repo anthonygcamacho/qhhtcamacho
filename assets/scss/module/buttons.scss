@@ -1,26 +1,15 @@
-.more-info-btn {
-  color: #fff;
+.cta__default {
+  padding: 5px 15px;
+  background-color: #fff;
+  border: 3px solid #0038ff;
+  border-radius: 50px;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #0038ff;
   text-decoration: none;
-  text-transform: uppercase;
-  background-color: $red-main;
-  border-radius: 10px;
   display: inline-block;
-  &__large {
-    padding: 15px 20px;
-    font-size: 1em;
-    font-weight: 700;
-    @media(min-width: 690px) {
-      padding: 20px 30px;
-      font-size: 1.2em;
-    }
-  }
-  &__mini {
-    padding: 15px 20px;
-    font-size: 1em;
-    font-weight: 700;
-  }
   &:hover {
-    text-decoration: underline;
-    background-color: #f62828;
+    color: #fff;
+    background-color: #0038ff;
   }
 }
