@@ -11,8 +11,8 @@ gulp.task('sass', function () {
     gulp
       // .src('./assets/scss/**/*.scss')
       .src('./assets/scss/main.scss')
-      .pipe(concat('custom.scss'))
-      .pipe(sass().on('error', sass.logError))
+      .pipe(concat('styles.min.scss'))
+      .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
       .pipe(gulp.dest('./dist/'))
   )
 })
