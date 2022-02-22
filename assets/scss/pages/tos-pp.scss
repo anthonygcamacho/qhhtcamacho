@@ -1,0 +1,25 @@
+.privacy,
+.tos {
+  section {
+    width: 100%;
+  }
+  .section-inner-wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: left;
+    h2 {
+      font-family: 'Roboto';
+      font-size: 1.6em;
+    }
+    h3 {
+      margin-bottom: 15px;
+      font-family: 'Roboto';
+      font-size: 1.4em;
+    }
+    h4 {
+      margin-bottom: 10px;
+      font-family: 'Roboto';
+      font-size: 1.2em;
+    }
+  }
+}
