@@ -98,7 +98,7 @@
       <form
         id='sib-form'
         method='POST'
-        action='https://1d0d9333.sibforms.com/serve/MUIEAPO0myasBX5vZLcxYHeWy4UHvYh58hWJr4zqcMnGvXu0yc5ASfWR0pVCrsvWJb0AFULOfJJrFTMCDk0bvky-IPZgyu2HekHHN33jcydqpHvFXv7hPxyEbkpwon-ga5wnbPlXR-eDMkfobG8HVClAbzw3-Ukhh5IOA4NXLNvr87dYmsEwJyvNZvW4I4DkW6K8kQO5LfIQZQJl'
+        action='https://1d0d9333.sibforms.com/serve/MUIEAF95RvGwsyINAKA5mKouRKfturuT0IxFGOUezPUhMyG_ELM4kEXMvGhVETHsOYzqSKDlT6bZfoWO0AOpztWEYg8vbBfZ9cCtTllTvgGjhSXrF5NUBYdC-GmfcheL0A0UJyeu8y4-gow-8klz4KA0UzixXYutLwIoMRIb5M2YwjWNcXom9JB9br5slbCx2C02LZUH8J15cAXq'
         data-type='subscription'
       >
         <div style='padding: 8px 0;'>
@@ -107,7 +107,7 @@
             style='font-size:24px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;'
           >
             <p>
-              Anthony Camacho (QHHT) Mailing List
+              Newsletter
             </p>
           </div>
         </div>
@@ -118,7 +118,7 @@
           >
             <div class='sib-text-form-block'>
               <p>
-                Subscribe to stay posted on any session openings.
+                Subscribe to be put on standby and to stay posted on any calendar changes.
               </p>
             </div>
           </div>
@@ -187,6 +187,31 @@
           </div>
         </div>
         <div style='padding: 8px 0;'>
+          <div class='sib-captcha sib-form-block'>
+            <div class='form__entry entry_block'>
+              <div class='form__label-row'>
+                <script>
+                  function handleCaptchaResponse() {
+                    var event = new Event('captchaChange');
+                    document.getElementById('sib-captcha').dispatchEvent(event);
+                  }
+                </script>
+                <div
+                  class='g-recaptcha sib-visible-recaptcha'
+                  id='sib-captcha'
+                  data-sitekey='6LeGV5ceAAAAAM08oi7JKH8A1IKnHI9CEE_yLmQG'
+                  data-callback='handleCaptchaResponse'
+                ></div>
+              </div>
+              <label
+                class='entry__error entry__error--primary'
+                style='font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;'
+              >
+              </label>
+            </div>
+          </div>
+        </div>
+        <div style='padding: 8px 0;'>
           <div class='sib-form-block' style='text-align: left'>
             <button
               class='sib-form-block__button sib-form-block__button-with-loader'
@@ -243,6 +268,8 @@
   var AUTOHIDE = Boolean(0);
 </script>
 <script src='https://sibforms.com/forms/end-form/build/main.js'></script>
+
+<script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
 
 <!-- END - We recommend to place the above code in footer or bottom of your website html  -->
 <!-- End Sendinblue Form -->
