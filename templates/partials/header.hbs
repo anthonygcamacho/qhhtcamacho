@@ -20,6 +20,20 @@
 
 <body class="{{ page }}">
 
+<div id="modal">
+    <div class="modal-content">
+        {{> mailinglist }}
+        {{!-- <div class="header">s
+            <h2>Modal Header</h2>
+        </div> --}}
+        <div class="copy">
+            <p>Modal Body</p>
+            <a href="#">Close Link</a> 
+        </div>
+    </div>
+    <div class="overlay"></div>
+</div>
+
 <header class="header">
     <div class="header__wrapper">
         <h1>
