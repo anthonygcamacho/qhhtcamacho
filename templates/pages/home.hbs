@@ -3,18 +3,39 @@
 <section class="about-home" id="about-home">
     <div class="about-home__wrapper">
         <div class="about-home__bio-img">
-            <img src="imgs/bio.svg" />
+            <img class="img-responsive" src="imgs/bio.svg" />
         </div>
         <div class="about-home__bio">
-            <p>Hi, my name is Tony (QHHT Certified).</p>
-            <p>Thank you for stopping by to learn more about my services in QHHT. Keep scrolling down to learn about Pricing and QHHT, then schedule your next session.</p>
+            <p>Thank you for stopping by to learn more about my services in QHHT. Keep scrolling down to learn about Pricing, what to expect in a QHHT session, and then schedule your next session.</p>
+            <p>If you have questions about what takes place during a session or what to expect, you can also schedule a 1hr Q&amp;A Call with me.</p>
+            <!-- Calendly link widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+            <a class="cta__default contact-form__schedule-call" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/anthony-g-camacho/qhht-phone-q-a-w-anthony-camacho'});return false;">Schedule Q&amp;A Call</a>
+            <!-- Calendly link widget end -->
         </div>
     </div>
 </section>
 
-<a href="#modal">
-  Launch A Modal
-</a>
+<section class="qhht-home" id="qhht-home">
+    <h2 class="h2__default">QHHT</h2>
+    <div class="qhht-home__wrapper">
+        <div class="qhht-home__description">
+            <p>Quantum Healing Hypnosis Technique is a deep trance hypnosis where physical and spiritual healing can take place.</p>
+            <p>What to expect:</p>
+            <ul>
+                <li>Connect with your Higher-Self</li>
+                <li>Past Life Regression</li>
+                <li>Spiritual and Physical Healing</li>
+                <li>Learn about your Purpose</li>
+                <li>And much more</li>
+            </ul>
+        </div>
+        <div class="qhht-home__description-img">
+            <img class="img-responsive" src="imgs/qhht3.svg" />
+        </div>
+    </div>
+</section>
 
 <section class="pricing-home" id="pricing-home">
     <h2 class="h2__default">Pricing</h2>
@@ -28,24 +49,10 @@
     <p class="pricing-home__weekends-only">Weekends Only</p>
 </section>
 
-<section class="qhht-home" id="qhht-home">
-    <h2 class="h2__default">QHHT</h2>
-    <div class="qhht-home__wrapper">
-        <div class="qhht-home__description">
-            <p>Quantum Healing Hypnosis Technique is a deep trance hypnosis where physical and spiritual healing can take place.</p>
-            <p>What you can expect:</p>
-            <ul>
-                <li>Connect with your Higher-Self</li>
-                <li>Past Life Regression</li>
-                <li>Spiritual and Physical Healing</li>
-                <li>Learn about your Purpose</li>
-                <li>And much more</li>
-            </ul>
-        </div>
-        <div class="qhht-home__description-img">
-            <img class="img-responsive" src="imgs/qhht3.svg" />
-        </div>
-    </div>
+<section class="newsletter-home" id="newsletter-home">
+    <h2 class="h2__default">Standby List</h2>
+    <p class="newsletter-home__description">Would you like to be on standby? Sign up to my Newsletter. You will also receive updates on when I make changes to the available session dates.</p>
+    <a class="cta__default newsletter-home__newsletter-signup" href="#modal">Standby List Signup</a>
 </section>
 
 {{> footer }}

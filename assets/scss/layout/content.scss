@@ -1,5 +1,8 @@
 .content {
-  margin-top: 90px;
+  margin-top: 140px;
+  @media (min-width: 760px) {
+    margin-top: 90px;
+  }
 
   section {
     padding: 0 15px;
