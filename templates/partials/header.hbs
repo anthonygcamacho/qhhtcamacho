@@ -23,19 +23,38 @@
 <div id="modal">
     <div class="modal-content">
         {{> mailinglist }}
-        {{!-- <div class="header">s
-            <h2>Modal Header</h2>
-        </div> --}}
         <div class="copy">
-            <p>Modal Body</p>
-            <a href="#">Close Link</a> 
+            <a href="#">Cancel</a> 
         </div>
     </div>
     <div class="overlay"></div>
 </div>
 
 <header class="header">
-    <div class="header__wrapper">
+    <div class="header__wrapper header__mobile">
+        <div class="header__nav-top">
+            <h1>
+                <a class="header__home-link" href="/">
+                    <span class="header__home-link__top">Anthony Camacho</span>
+                    <span class="header__home-link__bottom">QHHT Certified</span>
+                </a>
+            </h1>
+            <div class="header__schedule">
+                {{!-- <a href="">Schedule</a> --}}
+                <!-- Calendly link widget begin -->
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                <a class="cta__default" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/anthony-g-camacho/qhht-session'});return false;">Schedule Session</a>
+                <!-- Calendly link widget end -->
+            </div>
+        </div>
+        <div class="header__nav">
+            <a href="/#about-home">About</a>
+            <a href="/#pricing-home">Pricing</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </div>
+    <div class="header__wrapper header__desktop">
         <h1>
             <a class="header__home-link" href="/">
                 <span class="header__home-link__top">Anthony Camacho</span>
